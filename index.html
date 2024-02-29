@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Login</title>
+  <link rel="stylesheet" href="./assets/css/style.css">
+  <link rel="shortcut icon" href="./assets/img/user-interface.png" type="image/x-icon">
+  <style>
+   /* * {
+  margin: 0;
+  padding: 0;
+  font-family: 'Poppins', sans-serif;
+  box-sizing: border-box;
+}
+.main-login {
+  width: 100vw;
+  height: 100vh;
+  background-color: rgb(19, 18, 18);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.left-login {
+  width: 50vw;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.left-login > h1 {
+  color: #77ffc0;
+  font-size: 1.875rem;
+}
+
+.left-login > img {
+  width: 60%;
+}
+
+.right-login {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 50vw;
+  height: 100vh;
+}
+
+.card-login {
+  background-color: #2f2841;
+  width: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  box-shadow: 0px 10px 40px #00000056;
+  border: none;
+  border-radius: .8rem;
+  padding: 1.875rem 1.875rem;
+}
+
+.card-login > h1 {
+  color: #77ffc0;
+  font-size: 2.1875rem;
+  font-weight: bold;
+}
+
+.text-label {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  flex-direction: column;
+  margin: 10px 0;
+}
+
+.text-label > label {
+  color: white;
+  font-size: .875rem;
+  margin-bottom: 5px;
+}
+
+.text-label > input {
+  width: 100%;
+  padding: .9375rem;
+  border-radius: 8px;
+  outline: none;
+  box-shadow: 0px 10px 40px #00000056;
+  color: #f0ffffde;
+  background-color: #514869;
+  width: 100%;
+  font-size: 12pt;
+  border: none;
+}
+
+.text-label input::placeholder {
+  color: #f0ffff94;
+}
+
+.btn-login {
+  width: 100%;
+  padding:  1rem 0px;
+  margin: .625rem;
+  border: none;
+  background-color: #00ff88;
+  color: #2b134b;
+  letter-spacing: 5px;
+  font-weight: bold;
+  border-radius: .5rem;
+  box-shadow: 0px 10px 40px -12px #00ff8052;
+  cursor: pointer;
+  outline: none;
+}
+
+.btn-login a {
+  text-decoration: none;
+} */
+
+  </style>
+</head>
+<body>
+  <main class="main-login">
+
+    <div class="left-login">
+      <h1>Faça Login</h1>
+       <img src="./assets/img/computer-login-animate.svg" alt="imagem" class="left-login-imagem">   
+    </div>
+
+    <div class="right-login">
+      <div class="card-login">
+
+        <h1>Login</h1>
+
+        <div class="text-label">
+          <label for="usuario">Usuário</label>
+          <input type="text" id="usuario" placeholder="Usuário">
+        </div>
+     
+
+          <div class="text-label">
+            <label for="senha">Senha</label>
+            <input type="password" id="senha" placeholder="Senha">
+            
+          </div>
+        
+
+        <button class="btn-login"><a href="#">Login</a></button>
+      </div>
+    </div>
+
+  </main>
+</body>
+</html>
